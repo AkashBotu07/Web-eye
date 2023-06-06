@@ -1,0 +1,147 @@
+.navigation{
+    overflow: auto;
+    
+}
+.navigation ul li{
+    float: right;
+    list-style: none;
+    margin: 30px 15px;
+}
+
+.section1{
+    background-size: cover;
+    background-image: url("bg.jpg");
+    height: 735px;
+    width: 100%;
+    
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 25px 25px;
+
+   
+}
+.navigation ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: yellow;    
+}
+.explore{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 40px ;
+    padding-bottom: 40px;
+
+}
+.tables1{
+    text-align: center;
+    margin-left: 180px;
+    margin-right: auto;
+    border-spacing: 130px;
+}
+
+.hr1{
+     width: 120px;
+     background-color: aqua;
+}
+.head1{
+    color: rgba(250, 251, 253, 0.826);
+}
+.head2{
+    color: rgb(255, 255, 255);
+    
+}
+.hr2{
+    width: 120px;
+    background-color: aqua;   
+}
+.section1 button:hover{
+    cursor: pointer;
+    background-color:yellow;
+}
+#section2{
+    width: auto;
+    height: 750px;
+}
+#section2 h1{
+    color: red;
+    text-align: center;
+}
+#section2 .table2 img{
+    padding-left: 60px;
+    transition: transform 0.3s;
+}
+#section2 .img:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+#section2 .table2{
+    height: 50px;
+    border-spacing: 50px;
+}
+#section2 p{
+    text-align: center;
+}
+
+.table3{
+    border-spacing: 50px;
+}
+.img3{
+    height: 170px;
+}
+.head3{
+    color: red;
+    text-align: center;
+}
+.section3{
+    width: auto;
+    height: 750px;
+}
+footer{
+    background-color: black;
+    height: 50px;
+}
+footer div p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+}
+.section1 button{
+    border-radius: 30px;
+    padding: 18px 40px;
+    text-decoration: none;
+    border-style: none;
+    background-color: rgb(133, 133, 133);
+}
+a{
+    text-decoration: none;
+}
+#section2 .tr3{
+    text-align: center;
+}
+#section2 button{
+    border-radius: 30px;
+    padding: 15px 20px;
+    background-color: rgb(207, 202, 202);
+    border-style: none;
+    border-bottom-style: none;
+    
+}
+#section2 button:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+#section2 td{
+    text-align: center;
+}
+.start{
+    color: black;
+}
+.section3 .table3 .img3{
+    transition: transform 0.3s;
+}
+.section3 .img3:hover{
+    transform: translateY(-30px);
+}
